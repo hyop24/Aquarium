@@ -1,0 +1,52 @@
+
+.bubble1
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 0%;
+	position: absolute;
+	animation: moveUp 10s ease infinite;
+}
+.bubble2
+{
+	width: 50px;
+	border-radius: 50%;
+	margin:80%;
+	position: absolute;
+	animation: moveUp 10s ease infinite;
+}
+.bubble3
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 40%;
+	position: absolute;
+	animation: moveUp 10s ease infinite;
+}
+.bubble4
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 90%;
+	position: absolute;
+	animation: moveUp 15s ease infinite;
+}
+.bubble5
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 10%;
+	position: absolute;
+	animation: moveUp 13s ease infinite;
+}
+
+@keyframes moveUp
+{
+
+	from {
+		top: 100vh;
+	}
+	to {
+		top: -200vh;
+	}
+}

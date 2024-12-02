@@ -1,0 +1,194 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+section
+{
+	height: 100vh;
+	background-image: linear-gradient(skyblue, royalblue);
+}
+#particles
+{
+	width: 100%;
+	height: 100%;
+}
+
+#fish1
+{
+	position: absolute;
+	z-index: 10;
+	transform: scaleX(-1);
+	top: 30%;
+	animation: animate 10s linear infinite;
+	animation-direction: reverse;
+}
+
+#fish2
+{ 
+	position: absolute;
+	z-index: 10;
+	transform: scaleX(1);
+	top: 15%;
+	animation: animate 10s ease infinite; 
+	animation-direction: reverse;
+}
+#fish3
+{
+	position: absolute;
+	z-index: 10;
+	transform: scaleX(1);
+	top: 60%;
+	animation: animate 15s ease infinite;
+
+}
+#fish4
+{
+	position: absolute;
+	z-index: 10;
+	transform: scaleX(1);
+	top: 45%;
+	animation: animate 12s ease infinite;
+	animation-direction: reverse;
+
+}
+
+#fish5
+{
+
+	position: absolute;
+	z-index: 10;
+	transform: scaleX(1);
+	top: 80%;
+	animation: animate 20s ease infinite;
+	animation-direction: reverse;
+
+}
+
+#fish6
+{
+	position: absolute;
+	z-index: 10;
+	transform: scaleX(1);
+	top: 30%;
+	animation: animate 20s ease infinite;
+
+}
+
+#fish7
+{
+	position: absolute;
+	z-index: 10;
+	transform: scaleX(1);
+	top: 40%;
+	animation: animate 10s ease infinite;
+
+}
+
+@keyframes animate 
+{
+
+	0%
+	{
+		transform:translateY(-50px);
+		left:-25%;
+	}
+	25%
+	{
+		transform:translateY(0px);
+	}
+	50%
+	{
+		transform:translateY(50px);
+	}
+	75%
+	{
+		transform:translateY(0px);
+	}
+	100%
+	{
+		transform:translateY(-50px);
+		left: 150%;
+	}
+}
+
+
+
+.wiggle:hover {
+			animation: shake 0.5s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes shake {
+			0% {transform: translate(0, 0) rotate(0deg);}
+    10% {transform: translate(-2px, -1px) rotate(-1deg);}
+    20% {transform: translate(-1px, 0px) rotate(1deg);}
+    30% {transform: translate(2px, 1px) rotate(0deg);}
+    40% {transform: translate(1px, -1px) rotate(1deg);}
+    50% {transform: translate(-1px, 1px) rotate(-1deg);}
+    60% {transform: translate(1px, 0px) rotate(0deg);}
+    70% {transform: translate(-1px, -1px) rotate(-1deg);}
+    80% {transform: translate(2px, 1px) rotate(1deg);}
+    90% {transform: translate(0, 1px) rotate(0deg);}
+    100% {transform: translate(0, -1px) rotate(-1deg);}
+		}
+
+
+.bubble1
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 0%;
+	position: absolute;
+	animation: moveUp 10s ease infinite;
+}
+.bubble2
+{
+	width: 50px;
+	border-radius: 50%;
+	margin:80%;
+	position: absolute;
+	animation: moveUp 10s ease infinite;
+}
+.bubble3
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 40%;
+	position: absolute;
+	animation: moveUp 10s ease infinite;
+}
+.bubble4
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 90%;
+	position: absolute;
+	animation: moveUp 15s ease infinite;
+}
+.bubble5
+{
+	width: 50px;
+	border-radius: 50%;
+	margin: 10%;
+	position: absolute;
+	animation: moveUp 13s ease infinite;
+}
+
+@keyframes moveUp
+{
+
+	from {
+		top: 100vh;
+	}
+	to {
+		top: -200vh;
+	}
+}
+
+
+
+
+
+
